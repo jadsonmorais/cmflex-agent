@@ -1,0 +1,14 @@
+# Credenciais — nunca commitar
+.env
+
+# Sessão autenticada do Playwright
+auth/session.json
+
+# Evidências geradas pelo agente (opcional — remova se quiser versionar)
+evidencias/
+
+# Playwright e binários do Chrome
+node_modules/
+playwright-report/
+test-results/
+chrome/
